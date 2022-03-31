@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 10%, rgba(0, 0, 0, .4)),
+                url("../assets/capa_bg.jpg")
+                rgb(34, 34, 34);
+    background-size: cover;
+    background-blend-mode: multiply, normal, normal;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container a{
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: crimson;
+    color: #efefef;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: 3px solid transparent;
+    transition: all .3s;
+}
+
+.container a:hover{
+    color: white;
+    outline-color: rgba(255, 255, 255, .3);
+}
+
+header img{
+    width: 200px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
